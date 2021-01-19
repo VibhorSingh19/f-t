@@ -28,7 +28,7 @@ function Navbar() {
     <>
       <nav className='navbar1'>
         <div className='navbar-container'>
-          <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
+          <Link to='/f-t' className='navbar-logo' onClick={closeMobileMenu}>
             F&T Nature
             <img className="logo" src={logo} alt='my portfolio logo'/>
           </Link>
@@ -37,7 +37,7 @@ function Navbar() {
           </div>
           <ul className={click ? 'nav-menu active' : 'nav-menu'}>
             <li className='nav-item1'>
-              <a href='/' className='nav-links1' onClick={closeMobileMenu} >
+              <a href='/f-t' className='nav-links1' onClick={closeMobileMenu} >
                 Home
               </a>
             </li>
