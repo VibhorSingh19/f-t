@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/F-T-Nature/precache-manifest.603a2ea9f9760048b0dd3f491c5b6b34.js"
+  "/f-t/precache-manifest.11288176dd0674d84b85f8cbbfa32fc7.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/F-T-Nature/index.html", {
+workbox.routing.registerNavigationRoute("/f-t/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
