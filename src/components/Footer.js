@@ -49,7 +49,7 @@ function Footer() {
           </div>
           <div class='footer-link-items'>
             <h2>Contact Us</h2>
-            <a href='mailto:utttu123@gmail.com'>Mail</a>
+            <a href='mailto:fandtnature@gmail.com'>Mail</a>
             <h6>+91-7014662503</h6>
           </div>
         </div>
